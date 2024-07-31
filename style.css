@@ -1,12 +1,56 @@
-#presentacion{
+#presentacion {
     margin: 15px !important;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
+    background-color: rgba(213, 210, 210, 0.742);
 }
 
-h3{
-    color: cornflowerblue;
+#icono1,
+#icono2 {
+    width: 70px;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+#icono3,
+#icono4,
+#icono5 {
+    width: 65px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#icono6 {
+    width: 50px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#icono7,
+#icono8 {
+    width: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+#proyecto1 {
+    background-image: url(imagenes/Google-final.png);
+}
+.proyecto{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain ;
+}
+#proyecto2{
+    background-image: url(imagenes/paleteria-Otirev.png);
+}
+#proyecto3{
+    background-image: url(imagenes/adopta.png);
+}
+
+.text-shadow-1 {
+    text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
 }
