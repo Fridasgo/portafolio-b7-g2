@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Frida Sofia Gomez Ortiz</title>
 
+    <!--Tipo de letra-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
     <!-- bootstrap--->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
@@ -72,9 +78,9 @@
         </section>
 
         <section id="habilidades" class="container px-4 py-5">
-            <h2 class="pb-2 border-bottom">Habilidades</h2>
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4 py-2">
-                <div class="col d-flex align-items-start">
+            <h2 class="pb-2 border-bottom mb-5">Habilidades</h2>
+            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-4 g-4">
+                <div class="col d-flex align-items-start mb-5">
                     <i id="icono1" class="bi bi-shield-fill-check text-info bg-dark"></i>
                     <div>
                         <h3 class="fw-bold mb-0 fs-4 text-body-emphasis">Gestión de amenazas</h3>
@@ -137,10 +143,10 @@
             </div>
         </section>
 
-        <section id="proyectos" class="container px-4 py-5">
+        <section id="proyectos" class="container px-4 py-5 mb-5">
             <h2 class="pb-2 border-bottom">Proyectos</h2>
 
-            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">
+            <div class="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5 mt-5 mb-5">
                 <div class="col">
                     <div id="proyecto1"
                         class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
@@ -176,42 +182,47 @@
                         </div>
                     </div>
                 </div>
-                <div id="proyecto3"
-                    class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
-                    <div class="d-flex flex-column h-100 p-5 pb-3 text-info text-shadow-1">
-                        <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ayuda a adoptar</h3>
-                        <ul class="d-flex list-unstyled mt-auto">
-                            <li class="me-auto">
-                                <a class="text-center link-light text-decoration-none"
-                                    href="https://mis-intereses-two.vercel.app/" target="_blank"
-                                    rel="noopener noreferrer">
-                                    Mira el proyecto
-                                </a>
-                            </li>
+                <div class="col">
+                    <div id="proyecto3"
+                        class="proyecto card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg">
+                        <div class="d-flex flex-column h-100 p-5 pb-3 text-info text-shadow-1">
+                            <h3 class="pt-5 mt-5 mb-4 display-6 lh-1 fw-bold">Ayuda a adoptar</h3>
+                            <ul class="d-flex list-unstyled mt-auto">
+                                <li class="me-auto">
+                                    <a class="text-center link-light text-decoration-none"
+                                        href="https://mis-intereses-two.vercel.app/" target="_blank"
+                                        rel="noopener noreferrer">
+                                        Mira el proyecto
+                                    </a>
+                                </li>
 
-                        </ul>
+                            </ul>
+                        </div>
                     </div>
                 </div>
-
             </div>
         </section>
 
         <section id="testimonios">
-            <h2 class="text-center bs-info text-info">Testimonios</h2>
+            <h2 class="text-center bs-info text-dark">Testimonios</h2>
             <div id="myCarousel" data-bs-theme="dark" class="carousel slide mb-6" data-bs-ride="carousel">
 
                 <!--contenido del carrousel (inner)-->
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <article class="container py-5 text-center px-5">
-                            <img class="rounded-5" src="imagenes/mujerdgtl.jpg" height="300px" alt="">
+                        <article class="container py-5 text-right px-5">
+                            <img class="rounded-5" src="imagenes/mujerdgtl.jpg" height="300px" alt="Logo MDJA">
                             <h3>Iris Linnet Gonzalez</h3>
-                            <p>Si me hcieses el honor aqui iría el testimonio </p>
+                            <p>✨Trabajar con Frida ha sido una grata experiencia. Su liderazgo es inspirador, siempre
+                                mostró una fuerte capacidad de resolver problemas con eficiencia y creatividad. Su
+                                enfoque innovador y su habilidad para motivar a los demás hacen que trabajar con ella
+                                sea una experiencia muy positiva. Sin duda, Frida es muy talentosa y comprometida.✨
+                            </p>
                         </article>
                     </div>
                     <div class="carousel-item">
                         <article class="container py-5 text-right px-5">
-                            <img class="rounded-5" src="imagenes/Litzi.jpg" height="300px" alt="">
+                            <img class="rounded-5" src="imagenes/Litzi.jpg" height="300px" walt="MarcaLitzi">
                             <h3>Litzi Sánchez</h3>
                             <p>Frida ha demostrado ser una alumna responsable y muy creativa durante el curso. Su
                                 interés por aprender la motiva a mejorar con cada proyecto que realiza.
@@ -221,8 +232,8 @@
                     <div class="carousel-item">
                         <article class="container py-5 text-center px-5">
                             <img class="rounded-5" src="imagenes/portada.jpg" height="300px" alt="">
-                            <h3></h3>
-                            <p></p>
+                            <h3>María Martinez</h3>
+                            <p> Aquí iría tu testimonio</p>
                         </article>
                     </div>
                 </div>
@@ -236,34 +247,36 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
-
             </div>
 
         </section>
     </main>
 
 
-    <footer id="contacto" class="container">
-        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+    <footer id="contacto" class="container-fluid bg-dark" data-bs-theme="dark">
+        <ul class="text-center text-info list-unstyled">
+            <li><i class="bi bi-stars text-info text-center"></i></li>
+            <li>
+                <p class="mt-3">Contactame por cualquiera de las redes sociales!!</p>
+            </li>
+        </ul>
+        <div class="d-flex flex-wrap justify-content-between align-items-center py-3 m-4 border-top">
             <div class="col-md-4 d-flex align-items-center">
-                <a href="/" class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
-                    <svg class="bi" width="30" height="24">
-                        <use xlink:href="#bootstrap"></use>
-                    </svg>
-                </a>
-                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Company, Inc</span>
+                <div class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1">
+                    <i class="bi bi-balloon-heart text-info fs-5"></i>
+                </div>
+                <span class="mb-3 mb-md-0 text-body-secondary">© 2024 Frida, TECHNOLOCHICAS PRO</span>
             </div>
 
             <ul class="nav col-md-4 justify-content-end list-unstyled d-flex">
-                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#twitter"></use>
-                        </svg></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#instagram"></use>
-                        </svg></a></li>
-                <li class="ms-3"><a class="text-body-secondary" href="#"><svg class="bi" width="24" height="24">
-                            <use xlink:href="#facebook"></use>
-                        </svg></a></li>
+                <li class="ms-3"><a class="text-info fs-4" href="#" target="_blank"><i class="bi bi-linkedin"></i></a>
+                </li>
+                <li class="ms-3"><a class="text-info fs-4" href="https://github.com/Fridasgo" target="_blank"><i
+                            class="bi bi-github"></i></a></li>
+                <li class="ms-3"><a class="text-info fs-4" href="mailto:fridasgo@hotmail.com" target="_blank"><i
+                            class="bi bi-envelope-open-heart"></i></a></li>
+                <li class="ms-3"><a class="text-info fs-4" href="https://wa.me/525570719938" target="_blank"><i
+                            class="bi bi-whatsapp"></i></i></a></li>
             </ul>
         </div>
     </footer>
