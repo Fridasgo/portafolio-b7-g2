@@ -8,11 +8,15 @@
 #presentacion {
     margin: 15px !important;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     background-color: rgba(213, 210, 210, 0.742);
+}
+
+#correo:hover{
+    text-decoration: black;
 }
 
 #icono1,
@@ -68,4 +72,15 @@
 
 .text-shadow-1 {
     text-shadow: 0 .125rem .25rem rgba(0, 0, 0, .25);
+}
+
+#testimonios img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+
+footer {
+    padding-top: 25px;
 }
